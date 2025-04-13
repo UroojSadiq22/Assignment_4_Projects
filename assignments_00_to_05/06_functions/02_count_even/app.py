@@ -25,7 +25,7 @@ def main():
     for num in user_numbers:  
         if num % 2 == 0: 
             count += 1  
-    print(count) 
+    print(f"Total even numbers are {count}") 
     
 if __name__ == '__main__':
     main()
